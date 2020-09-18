@@ -17,7 +17,7 @@ kodein {
             main.dependsOn(allNonJvm)
         }
 
-        add(kodeinTargets.js.js) {
+        add(kodeinTargets.js.both) {
             main.dependsOn(allNonJvm)
         }
 
